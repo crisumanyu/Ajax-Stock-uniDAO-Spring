@@ -14,11 +14,11 @@
  
         <context:component-scan base-package="net.rafaelaznar" />
                
-        <bean class="net.rafaelaznar.conexion.DriverManagerConnection" />
-        <bean class="net.rafaelaznar.dao.ClienteDao" />
-        <bean class="net.rafaelaznar.dao.CompraDao" />
-        <bean class="net.rafaelaznar.dao.ProductoDao" />
-        <bean class="net.rafaelaznar.dao.TipoproductoDao" />
+        <bean class="net.daw.conexion.DriverManagerConnection" />
+        <bean class="net.daw.dao.ClienteDao" />
+        <bean class="net.daw.dao.CompraDao" />
+        <bean class="net.daw.dao.ProductoDao" />
+        <bean class="net.daw.dao.TipoproductoDao" />
     
     
     <!--bean id="propertyConfigurer"
